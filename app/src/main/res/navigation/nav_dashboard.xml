@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_dashboard"
+    app:startDestination="@id/frgHome">
+
+    <fragment
+        android:id="@+id/frgHome"
+        android:name="com.mh.mhapp.presentation.ui.FrgHome"
+        android:label="frg_home"
+        tools:layout="@layout/frg_home" />
+
+    <fragment
+        android:id="@+id/frgProfile"
+        android:name="com.mh.mhapp.presentation.ui.FrgProfile"
+        android:label="FrgProfile"
+        tools:layout="@layout/frg_profile" />
+
+</navigation>

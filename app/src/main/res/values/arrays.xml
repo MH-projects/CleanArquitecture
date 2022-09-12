@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="array_gender">
+        <item>female</item>
+        <item>male</item>
+    </string-array>
+
+    <string-array name="array_state_mx">
+        <item>aguascalientes</item>
+        <item>baja_california</item>
+        <item>baja_california_sur</item>
+        <item>campeche</item>
+        <item>chiapas</item>
+        <item>chihuahua</item>
+        <item>cdmx</item>
+        <item>coahuila</item>
+        <item>colima</item>
+        <item>durango</item>
+        <item>estado_de_mexico</item>
+        <item>guanajuato</item>
+        <item>guerrero</item>
+        <item>hidalgo</item>
+        <item>jalisco</item>
+        <item>michoacán</item>
+        <item>morelos</item>
+        <item>nayarit</item>
+        <item>nuevo_leon</item>
+        <item>oaxaca</item>
+        <item>puebla</item>
+        <item>queretaro</item>
+        <item>quintana_roo</item>
+        <item>san_luis_potosi</item>
+        <item>sinaloa</item>
+        <item>sonora</item>
+        <item>tabasco</item>
+        <item>tamaulipas</item>
+        <item>tlaxcala</item>
+        <item>veracruz</item>
+        <item>yucatán</item>
+        <item>zacatecas</item>
+    </string-array>
+
+</resources>

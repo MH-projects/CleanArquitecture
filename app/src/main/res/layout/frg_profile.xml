@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="vm"
+            type="com.mh.mhapp.presentation.vm.DashboardViewModel" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/tvFullName"
+            style="@style/Theme_TextProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@={vm._infoUser.user.name}"
+            tools:text="Nombre: Manuel Hidalgo" />
+
+        <TextView
+            android:id="@+id/tvBirthday"
+            style="@style/Theme_TextProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            tools:text="Fecha de nacimiento: dd/mm/yyyy" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            style="@style/Theme_TextProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            tools:text="Correo: correo@hotmail.com" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            style="@style/Theme_TextProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            tools:text="Sexo: Masculino" />
+
+        <TextView
+            android:id="@+id/tvState"
+            style="@style/Theme_TextProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            tools:text="Estado: CDMX" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            style="@style/Theme_TextProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            tools:text="Contacto: 551245151454" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

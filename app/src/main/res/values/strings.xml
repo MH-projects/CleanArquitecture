@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MHApp</string>
+
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="full_name">
+        &lt;b&gt;Nombre: &lt;/b&gt; <xliff:g name="name">%s</xliff:g> <xliff:g name="apaterno">%s</xliff:g> <xliff:g name="amaterno">%s</xliff:g>
+    </string>
+
+    <string name="birthday">
+        &lt;b&gt;Fecha de Nacimiento: &lt;/b&gt; <xliff:g name="birthday">%s</xliff:g>
+    </string>
+
+    <string name="email">
+        &lt;b&gt;Correo: &lt;/b&gt; <xliff:g name="email">%s</xliff:g>
+    </string>
+
+    <string name="gender">
+        &lt;b&gt;Sexo: &lt;/b&gt; <xliff:g name="gender">%s</xliff:g>
+    </string>
+
+    <string name="state">
+        &lt;b&gt;Estado: &lt;/b&gt; <xliff:g name="state">%s</xliff:g>
+    </string>
+
+    <string name="phone">
+        &lt;b&gt;Contacto: &lt;/b&gt; <xliff:g name="phone">%s</xliff:g>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
